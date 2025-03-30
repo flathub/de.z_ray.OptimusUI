@@ -1,7 +1,7 @@
 {
   "app-id": "de.z_ray.OptimusUI",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "47",
+  "runtime-version": "48",
   "sdk": "org.gnome.Sdk",
   "command": "optimus-ui",
   "finish-args": [
@@ -34,7 +34,7 @@
         {
           "type": "git",
           "url": "https://github.com/Z-Ray-Entertainment/optimus-ui",
-          "tag": "24.10.7"
+          "tag": "25.3"
         }
       ]
     }
