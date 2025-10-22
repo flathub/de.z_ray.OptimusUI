@@ -34,7 +34,7 @@
         {
           "type": "git",
           "url": "https://codeberg.org/ZRayEntertainment/optimus-ui",
-          "tag": "feature/acherontic/gnome-49"
+          "tag": "25.10"
         }
       ]
     }
