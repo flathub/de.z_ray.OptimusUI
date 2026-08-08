@@ -20,7 +20,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/ZRayEntertainment/optimus-ui",
-          "tag": "25.10"
+          "tag": "25.10",
+          "commit": "b812a636e1a14413d869b1956df3afc1ee30b864"
         }
       ]
     }
