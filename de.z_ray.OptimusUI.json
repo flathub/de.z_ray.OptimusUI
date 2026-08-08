@@ -1,7 +1,7 @@
 {
   "app-id": "de.z_ray.OptimusUI",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "optimus-ui",
   "finish-args": [
@@ -13,20 +13,6 @@
   ],
   "modules": [
     {
-        "name": "python3-packaging",
-        "buildsystem": "simple",
-        "build-commands": [
-            "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"packaging~=25.0\" --no-build-isolation"
-        ],
-        "sources": [
-            {
-                "type": "file",
-                "url": "https://files.pythonhosted.org/packages/a1/d4/1fc4078c65507b51b96ca8f8c3ba19e6a61c8253c72794544580a7b6c24d/packaging-25.0.tar.gz",
-                "sha256": "d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f"
-            }
-        ]
-    },
-    {
       "name": "optimusui",
       "builddir": true,
       "buildsystem": "meson",
@@ -34,7 +20,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/ZRayEntertainment/optimus-ui",
-          "tag": "25.10"
+          "tag": "25.10",
+          "commit": "b812a636e1a14413d869b1956df3afc1ee30b864"
         }
       ]
     }
